@@ -1,0 +1,21 @@
+
+            {{>header}}
+
+    <div class="main-content">
+
+        <p>Use this site to get your weather!</p>
+        <form>
+            <input type="search" name="location" placeholder="Location"/>
+            <button type="submit" >Search</button>
+        </form>
+        <button id="get-location"> Get My Location</button>
+
+                <p>{{location}}</p>      
+                <p>{{forecastData}}</p>  
+                <p>{{error}}</p>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>
